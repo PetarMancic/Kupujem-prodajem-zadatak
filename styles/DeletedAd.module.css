@@ -1,0 +1,79 @@
+.header {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  width: 500px;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.image {
+  width: "96px";
+  height: "90px";
+  border-radius: "1px";
+  border: 1px solid #e0e7ef;
+  color: "#E0E7EF";
+}
+
+.ad {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 8px;
+  border-radius: 4px;
+  color: #e0e7ef;
+}
+.back {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-235%);
+  top: 165px;
+  text-align: center;
+  color: #003368;
+}
+
+.AdName {
+  position: absolute;
+  left: 120px;
+  top: 8px;
+  size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: PT Sans;
+  color: #a2a2a2;
+}
+
+.star {
+  width: 22.5px;
+  height: 22.5px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #e0e7ef;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "PT Sans";
+  color: #848484;
+}
